@@ -46,7 +46,7 @@ func JWTFlowLogIn(sandbox bool) (string, error) {
 
 	}
 
-	exp := time.Now().Add(time.Hour * time.Duration(3)).Unix()
+	exp := time.Now().Add(time.Minute * time.Duration(5)).Unix()
 
 	header := JWTHeader{Typ: "JWT", Alg: "RS256"}
 
