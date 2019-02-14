@@ -1,8 +1,9 @@
 package gosalesforcejwt
 
 import (
-	"encoding/json"
+	"io/ioutil"
 	"log"
+	"os"
 	"testing"
 
 	"github.com/joho/godotenv"
@@ -10,18 +11,14 @@ import (
 
 func TestLogIn(t *testing.T) {
 	godotenv.Load()
-	token, err, errorResponse := JWTFlowLogIn(false)
+	keyBytes, _ := ioutil.ReadFile(os.Getenv("SALESFORCE_KEY_PATH"))
 
-	if err != nil {
-		t.Fail()
-	}
+	request, _ := BuildRequest(os.Getenv("SALESFORCE_CLIENT_ID"), os.Getenv("SALESFORCE_USER"), os.Getenv("SALESFORCE_AUDIENCE"))
 
-	if errorResponse != nil {
-		t.Fail()
-	}
+	signature, _ := SignRequest(keyBytes, request)
 
-	j, _ := json.MarshalIndent(token, " ", "")
+	token, err, errr := LogIn(request, signature, os.Getenv("SALESFORCE_ENDPOINT"))
 
-	log.Println(string(j))
+	log.Println(err, errr, token)
 
 }

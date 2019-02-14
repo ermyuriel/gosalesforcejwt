@@ -11,10 +11,8 @@ import (
 	"encoding/json"
 	"encoding/pem"
 	"errors"
-	"io/ioutil"
 	"net/http"
 	"net/url"
-	"os"
 	"strings"
 	"time"
 )
@@ -48,49 +46,14 @@ type JWTClaims struct {
 	Exp int64  `json:"exp,number"`
 }
 
-//JWTFlowLogIn returns either a SalesforceTokenResponse or an error and possibly a SalesforceErrorResponse to help with debugging if communication was succesful but configuration issues were found
-func JWTFlowLogIn(sandbox bool) (*SalesforceTokenResponse, error, *SalesforceErrorResponse) {
-
-	clientID := os.Getenv("CLIENT_ID")
-	user := os.Getenv("SF_USER")
-	var aud string
-
-	if sandbox {
-		aud = "https://test.salesforce.com"
-
-	} else {
-		aud = "https://login.salesforce.com"
-
-	}
-
-	exp := time.Now().Add(time.Minute * time.Duration(5)).Unix()
-
-	header := JWTHeader{Typ: "JWT", Alg: "RS256"}
-
-	claims := JWTClaims{Iss: clientID, Sub: user, Aud: aud, Exp: exp}
-
-	jh, err := json.Marshal(header)
-
-	if err != nil {
-		return nil, err, nil
-	}
-	jc, err := json.Marshal(claims)
-
-	if err != nil {
-		return nil, err, nil
-	}
-
-	request := encodeBase64URL(jh) + "." + encodeBase64URL(jc)
-
-	s, err := sign(request)
-
-	signature := encodeBase64URL(s)
+//LogIn receives a request, it's SHA256 signature and an endpoint. Returns either a SalesforceTokenResponse or an error and possibly a SalesforceErrorResponse to help with debugging if communication was succesful but configuration issues were found
+func LogIn(request, signature, endpoint string) (*SalesforceTokenResponse, error, *SalesforceErrorResponse) {
 
 	signedRequest := request + "." + signature
 
 	body := "grant_type=" + url.QueryEscape("urn:ietf:params:oauth:grant-type:jwt-bearer") + "&assertion=" + signedRequest
 
-	authRequest, err := http.NewRequest("POST", os.Getenv("INSTANCE")+"/services/oauth2/token", bytes.NewBuffer([]byte(body)))
+	authRequest, err := http.NewRequest("POST", endpoint+"/services/oauth2/token", bytes.NewBuffer([]byte(body)))
 
 	if err != nil {
 		return nil, err, nil
@@ -121,24 +84,23 @@ func JWTFlowLogIn(sandbox bool) (*SalesforceTokenResponse, error, *SalesforceErr
 
 }
 
-func sign(request string) ([]byte, error) {
+func main() {
 
-	keyBytes, err := ioutil.ReadFile(os.Getenv("KEY_PATH"))
+}
 
-	if err != nil {
-		return nil, err
-	}
+//SignRequest signs a JWT request string and signs it using provided private key
+func SignRequest(keyBytes []byte, request string) (string, error) {
 
 	block, rest := pem.Decode([]byte(keyBytes))
 
 	if len(rest) != 0 {
-		return nil, errors.New("Invalid key")
+		return "", errors.New("Invalid key")
 	}
 
 	key, err := x509.ParsePKCS1PrivateKey(block.Bytes)
 
 	if err != nil {
-		return nil, err
+		return "", err
 	}
 
 	sum := sha256.Sum256([]byte(request))
@@ -146,10 +108,34 @@ func sign(request string) ([]byte, error) {
 	sigBytes, err := rsa.SignPKCS1v15(rand.Reader, key, crypto.SHA256, sum[:])
 
 	if err != nil {
-		return nil, err
+		return "", err
 	}
-	return sigBytes, nil
 
+	return encodeBase64URL(sigBytes), nil
+
+}
+
+//BuildRequest takes in client id, user and audience parameters and returns a JWT request string for signing
+func BuildRequest(clientID, user, audience string) (string, error) {
+
+	exp := time.Now().Add(time.Minute * time.Duration(5)).Unix()
+
+	header := JWTHeader{Typ: "JWT", Alg: "RS256"}
+
+	claims := JWTClaims{Iss: clientID, Sub: user, Aud: audience, Exp: exp}
+
+	jh, err := json.Marshal(header)
+
+	if err != nil {
+		return "nil", err
+	}
+	jc, err := json.Marshal(claims)
+
+	if err != nil {
+		return "nil", err
+	}
+
+	return encodeBase64URL(jh) + "." + encodeBase64URL(jc), nil
 }
 
 func encodeBase64URL(data []byte) string {
