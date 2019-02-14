@@ -1,0 +1,1319 @@
+/bin/sh: 1: go: not found
+2019/02/13 17:07:02 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAwOTk0MDJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:07:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:07:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=6ExUBZqWS56ks10NuM9SMQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:07:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:08:02 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAwOTk0NjJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:08:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:08:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=GewS-HR3SY27luw_zTq08g;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:08:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:09:02 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAwOTk1MjJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:09:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:09:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=isaD1rKeQz2EuqbRWPcegw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:09:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:10:02 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAwOTk1ODJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:10:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:10:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=-K6FTep3QR6dNYGK1PMD5w;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:10:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:11:01 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAwOTk2NDF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:11:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:11:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=gmtwf5ikT-yqw1ymHkzmrw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:11:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:12:01 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAwOTk3MDF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:12:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:12:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=AFnro7hxRFukTfKK6LYjfQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:12:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:13:01 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAwOTk3NjF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:13:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:13:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=QhYbhyJXROatkFpqiht9IQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:13:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:14:01 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAwOTk4MjF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:14:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:14:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=LSE7ar0kQMOvygAgL1eRRw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:14:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:15:01 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAwOTk4ODF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:15:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:15:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=xhgQ_vzyTjq6euS_tQjGAA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:15:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:16:01 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAwOTk5NDF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:16:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:16:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=0pnru2tRQk2oRVvOb9HK4g;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:16:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:17:01 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDAwMDF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:17:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:17:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=k6PVWMN8THO0EzRlNgoxCA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:17:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:18:01 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDAwNjF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:18:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:18:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=NEp7jh8TROCH6p5hsSx3tw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:18:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=4pyf0BT1T_aeozJZypFDuQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:18:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+# _/home/eucj/gosalesforce
+./gosalesforce.go:124:9: cannot use "" (type string) as type []byte in return argument
+2019/02/13 17:20:01 grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDAxODF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:20:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+
+2019/02/13 17:20:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:20:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=nvpqgfJ4Tpizc1SYHlzH0w;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:20:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=hhHEkK4yS9qCNMMyXaDXMw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:20:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:21:01 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDAyNDF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:21:04 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:21:04 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=so7vdxIASbOuOjNfczqHBQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:21:04 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=LBJIXNMoRYmOvIPQIpfXBg;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:21:04 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:22:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDAzMDJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:22:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:22:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=vrUOfYGUQ9u5flnMQEpq_Q;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:22:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=omfa9H2YS4yM-LPNqUMB0g;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:22:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:23:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDAzNjJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:23:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:23:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=Ke5IRd6RQTmpSrwVd1jZEA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:23:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=82MWRmZvTm-wUK3lkbiMUQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:23:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:24:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA0MjJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:24:03 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:24:03 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=V4rC8JzhQQeVmRVMfNF2rw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:24:03 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=m9QE4e75Q4m1jCWRZ0U_0g;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:24:03 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:25:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA0ODJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:25:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:25:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=i--FzY30RJSURvSFljKuHg;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:25:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=IsCIND5iSguwk14wrCNvKQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:25:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:26:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA1NDJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:26:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:26:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=bOLQbCecRRGY7oAzI_8gYg;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:26:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=L5b-A1QVQZKvBFX1LCJlNQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:26:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:27:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA2MDJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:27:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:27:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=Ng2MP3UESlOCP6ozIcQELQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:27:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=s6mO_MIrSuqDpihSCp05QA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:27:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:28:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA2NjJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:28:03 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:28:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=CBdAuE4fSxW1seJZP1YSLw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:28:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=uJnd-6WkRRqk5-8KtvxkmA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:28:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:29:01 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA3MjF9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:29:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:29:01 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=Lnw7dV7tReme0PMQ05gMLQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:29:01 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=RTxnbI8sSVezk0D2ePsgow;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:29:01 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:30:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsIm5iZiI6MTU1MDEwMDQ5NCwiZXhwIjoxNTUwMTA0MDk0LCJpYXQiOjE1NTAxMDA0OTQsInR5cCI6IkpXVCJ9.Bvg0YqdVkKpNM4Fq4LHbvuQLB_YAjOOVxs2Ab__HkV6JTjZVHzk59mWww1DZBHFPrrerHoNxMje03XvRHh9QVY4k62RLE1wcKrQ-o4NRMC_MLyAMx2RiCBxbiuosagioMSYKHVGyt6CzYjqfc5YsLzER94e6kGilZnL_lIBlRgkFFnYtAnlfU4k79nlK0PcPNqnt2XWixAI9iI5IUl1VG60XVSvXnP3kTSea687hxnB2GIdlZ_Qh9HRA31Y_DWNuAMACUZrJyKfT1TMoP1mM6vHc4Tsk6TaTuRUb89et5C3B_UiBQ9OmPft6prd9M8uC2ddLPt5pccE8QT6D2tt5Fw
+2019/02/13 17:30:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:30:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=eA_h4oVXR6OcKGeIIwV1zw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:30:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=xMQEPPaKQTSv1ncyxryNGQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:30:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:31:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsIm5iZiI6MTU1MDEwMDQ5NCwiZXhwIjoxNTUwMTA0MDk0LCJpYXQiOjE1NTAxMDA0OTQsInR5cCI6IkpXVCJ9.Bvg0YqdVkKpNM4Fq4LHbvuQLB_YAjOOVxs2Ab__HkV6JTjZVHzk59mWww1DZBHFPrrerHoNxMje03XvRHh9QVY4k62RLE1wcKrQ-o4NRMC_MLyAMx2RiCBxbiuosagioMSYKHVGyt6CzYjqfc5YsLzER94e6kGilZnL_lIBlRgkFFnYtAnlfU4k79nlK0PcPNqnt2XWixAI9iI5IUl1VG60XVSvXnP3kTSea687hxnB2GIdlZ_Qh9HRA31Y_DWNuAMACUZrJyKfT1TMoP1mM6vHc4Tsk6TaTuRUb89et5C3B_UiBQ9OmPft6prd9M8uC2ddLPt5pccE8QT6D2tt5Fw
+2019/02/13 17:31:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:31:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=i15pRlOWQKukjUxKyfLQIw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:31:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=KbTeVtbfR0uVrMcW5Oj25Q;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:31:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:32:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://luuna.my.salesforce.com","exp":1550100902}
+2019/02/13 17:32:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsIm5iZiI6MTU1MDEwMDQ5NCwiZXhwIjoxNTUwMTA0MDk0LCJpYXQiOjE1NTAxMDA0OTQsInR5cCI6IkpXVCJ9.Bvg0YqdVkKpNM4Fq4LHbvuQLB_YAjOOVxs2Ab__HkV6JTjZVHzk59mWww1DZBHFPrrerHoNxMje03XvRHh9QVY4k62RLE1wcKrQ-o4NRMC_MLyAMx2RiCBxbiuosagioMSYKHVGyt6CzYjqfc5YsLzER94e6kGilZnL_lIBlRgkFFnYtAnlfU4k79nlK0PcPNqnt2XWixAI9iI5IUl1VG60XVSvXnP3kTSea687hxnB2GIdlZ_Qh9HRA31Y_DWNuAMACUZrJyKfT1TMoP1mM6vHc4Tsk6TaTuRUb89et5C3B_UiBQ9OmPft6prd9M8uC2ddLPt5pccE8QT6D2tt5Fw
+2019/02/13 17:32:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:32:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=WLUzv48STIKTyAQ_FCB92g;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:32:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=g3y5YKv4SQKoDqC8WVsPKw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:32:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:33:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://luuna.my.salesforce.com","exp":1550100962}
+2019/02/13 17:33:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsIm5iZiI6MTU1MDEwMDQ5NCwiZXhwIjoxNTUwMTA0MDk0LCJpYXQiOjE1NTAxMDA0OTQsInR5cCI6IkpXVCJ9.Bvg0YqdVkKpNM4Fq4LHbvuQLB_YAjOOVxs2Ab__HkV6JTjZVHzk59mWww1DZBHFPrrerHoNxMje03XvRHh9QVY4k62RLE1wcKrQ-o4NRMC_MLyAMx2RiCBxbiuosagioMSYKHVGyt6CzYjqfc5YsLzER94e6kGilZnL_lIBlRgkFFnYtAnlfU4k79nlK0PcPNqnt2XWixAI9iI5IUl1VG60XVSvXnP3kTSea687hxnB2GIdlZ_Qh9HRA31Y_DWNuAMACUZrJyKfT1TMoP1mM6vHc4Tsk6TaTuRUb89et5C3B_UiBQ9OmPft6prd9M8uC2ddLPt5pccE8QT6D2tt5Fw
+2019/02/13 17:33:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:33:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=jmu1DDM2QcKEZxZuBJLZyg;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:33:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=w0XTHphdTDWxkeEg8Pb4lQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:33:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:34:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://login.salesforce.com","exp":1550101022}
+2019/02/13 17:34:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA4NTV9.R75WlSjHGcKqkuOCSfJwkcU1Zm88FR81FSnSJeIj2Bp6qZ3o9F4vsxfMMhdrX49B_LDrqMzr3_EMNtW3pECGzzB683O78fAJTtSZE6CLunQCUJslNMSZqmicOuNg3fxdDVxjWSPcII4rS10SrMMQfQUPefhcrdnuCPKC3_0GnCTmwOG5MypY3gRJyc8MguUwqISJtO13FAcQte-PWNsxvKVG1SaIwDOvkwlU5p4klDQu-SygmMAWC6pszbXO-7F8klqk1otQwwKTbRuJ4EsuqqCF93sI_e9LS8JBC103rNaaZ9JBpupQKK68RUaf0pCaEA7Z6jzhVsuV6FHjkjtY4w
+2019/02/13 17:34:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:34:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=LsCoMAATSya9mC_UqFl7eA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:34:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=n7lsxV_OT_isoWcl8_Fz2g;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:34:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:35:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://luuna.my.salesforce.com","exp":1550101082}
+2019/02/13 17:35:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA4NTV9.R75WlSjHGcKqkuOCSfJwkcU1Zm88FR81FSnSJeIj2Bp6qZ3o9F4vsxfMMhdrX49B_LDrqMzr3_EMNtW3pECGzzB683O78fAJTtSZE6CLunQCUJslNMSZqmicOuNg3fxdDVxjWSPcII4rS10SrMMQfQUPefhcrdnuCPKC3_0GnCTmwOG5MypY3gRJyc8MguUwqISJtO13FAcQte-PWNsxvKVG1SaIwDOvkwlU5p4klDQu-SygmMAWC6pszbXO-7F8klqk1otQwwKTbRuJ4EsuqqCF93sI_e9LS8JBC103rNaaZ9JBpupQKK68RUaf0pCaEA7Z6jzhVsuV6FHjkjtY4w
+2019/02/13 17:35:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:35:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=PeOjAUynRYO5Q7q4cMesEQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:35:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:36:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://luuna.my.salesforce.com","exp":1550101142}
+2019/02/13 17:36:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA4NTV9.R75WlSjHGcKqkuOCSfJwkcU1Zm88FR81FSnSJeIj2Bp6qZ3o9F4vsxfMMhdrX49B_LDrqMzr3_EMNtW3pECGzzB683O78fAJTtSZE6CLunQCUJslNMSZqmicOuNg3fxdDVxjWSPcII4rS10SrMMQfQUPefhcrdnuCPKC3_0GnCTmwOG5MypY3gRJyc8MguUwqISJtO13FAcQte-PWNsxvKVG1SaIwDOvkwlU5p4klDQu-SygmMAWC6pszbXO-7F8klqk1otQwwKTbRuJ4EsuqqCF93sI_e9LS8JBC103rNaaZ9JBpupQKK68RUaf0pCaEA7Z6jzhVsuV6FHjkjtY4w
+2019/02/13 17:36:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:36:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=2o-8KWJnQo2zDuUUjIqXiA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:36:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:37:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://luuna.my.salesforce.com","exp":1550101202}
+2019/02/13 17:37:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA4NTV9.R75WlSjHGcKqkuOCSfJwkcU1Zm88FR81FSnSJeIj2Bp6qZ3o9F4vsxfMMhdrX49B_LDrqMzr3_EMNtW3pECGzzB683O78fAJTtSZE6CLunQCUJslNMSZqmicOuNg3fxdDVxjWSPcII4rS10SrMMQfQUPefhcrdnuCPKC3_0GnCTmwOG5MypY3gRJyc8MguUwqISJtO13FAcQte-PWNsxvKVG1SaIwDOvkwlU5p4klDQu-SygmMAWC6pszbXO-7F8klqk1otQwwKTbRuJ4EsuqqCF93sI_e9LS8JBC103rNaaZ9JBpupQKK68RUaf0pCaEA7Z6jzhVsuV6FHjkjtY4w
+2019/02/13 17:37:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:37:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=pzssUJiVTkCR0ELNQn19Jw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:37:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:38:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://luuna.my.salesforce.com","exp":1550101262}
+2019/02/13 17:38:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA4NTV9.R75WlSjHGcKqkuOCSfJwkcU1Zm88FR81FSnSJeIj2Bp6qZ3o9F4vsxfMMhdrX49B_LDrqMzr3_EMNtW3pECGzzB683O78fAJTtSZE6CLunQCUJslNMSZqmicOuNg3fxdDVxjWSPcII4rS10SrMMQfQUPefhcrdnuCPKC3_0GnCTmwOG5MypY3gRJyc8MguUwqISJtO13FAcQte-PWNsxvKVG1SaIwDOvkwlU5p4klDQu-SygmMAWC6pszbXO-7F8klqk1otQwwKTbRuJ4EsuqqCF93sI_e9LS8JBC103rNaaZ9JBpupQKK68RUaf0pCaEA7Z6jzhVsuV6FHjkjtY4w
+2019/02/13 17:38:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:38:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=1TngZ170T5-dx5GCUOIuKA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:38:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:39:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://luuna.my.salesforce.com","exp":1550101322}
+2019/02/13 17:39:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA4NTV9.R75WlSjHGcKqkuOCSfJwkcU1Zm88FR81FSnSJeIj2Bp6qZ3o9F4vsxfMMhdrX49B_LDrqMzr3_EMNtW3pECGzzB683O78fAJTtSZE6CLunQCUJslNMSZqmicOuNg3fxdDVxjWSPcII4rS10SrMMQfQUPefhcrdnuCPKC3_0GnCTmwOG5MypY3gRJyc8MguUwqISJtO13FAcQte-PWNsxvKVG1SaIwDOvkwlU5p4klDQu-SygmMAWC6pszbXO-7F8klqk1otQwwKTbRuJ4EsuqqCF93sI_e9LS8JBC103rNaaZ9JBpupQKK68RUaf0pCaEA7Z6jzhVsuV6FHjkjtY4w
+2019/02/13 17:39:04 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:39:03 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=n3QMwgC6Q4itXoBQ6Vrkxg;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:39:03 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:40:01 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://luuna.my.salesforce.com","exp":1550101381}
+2019/02/13 17:40:01 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA4NTV9.R75WlSjHGcKqkuOCSfJwkcU1Zm88FR81FSnSJeIj2Bp6qZ3o9F4vsxfMMhdrX49B_LDrqMzr3_EMNtW3pECGzzB683O78fAJTtSZE6CLunQCUJslNMSZqmicOuNg3fxdDVxjWSPcII4rS10SrMMQfQUPefhcrdnuCPKC3_0GnCTmwOG5MypY3gRJyc8MguUwqISJtO13FAcQte-PWNsxvKVG1SaIwDOvkwlU5p4klDQu-SygmMAWC6pszbXO-7F8klqk1otQwwKTbRuJ4EsuqqCF93sI_e9LS8JBC103rNaaZ9JBpupQKK68RUaf0pCaEA7Z6jzhVsuV6FHjkjtY4w
+2019/02/13 17:40:01 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:40:01 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=NorcsiZRR0G30xtJhgMdEw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:40:01 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:41:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550101442}
+2019/02/13 17:41:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA4NTV9.R75WlSjHGcKqkuOCSfJwkcU1Zm88FR81FSnSJeIj2Bp6qZ3o9F4vsxfMMhdrX49B_LDrqMzr3_EMNtW3pECGzzB683O78fAJTtSZE6CLunQCUJslNMSZqmicOuNg3fxdDVxjWSPcII4rS10SrMMQfQUPefhcrdnuCPKC3_0GnCTmwOG5MypY3gRJyc8MguUwqISJtO13FAcQte-PWNsxvKVG1SaIwDOvkwlU5p4klDQu-SygmMAWC6pszbXO-7F8klqk1otQwwKTbRuJ4EsuqqCF93sI_e9LS8JBC103rNaaZ9JBpupQKK68RUaf0pCaEA7Z6jzhVsuV6FHjkjtY4w
+2019/02/13 17:41:03 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:41:03 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=8o5VM2UcThCUkfwI6SEISg;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:41:03 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:42:01 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550101501}
+2019/02/13 17:42:01 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbHV1bmEubXkuc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMDA4NTV9.R75WlSjHGcKqkuOCSfJwkcU1Zm88FR81FSnSJeIj2Bp6qZ3o9F4vsxfMMhdrX49B_LDrqMzr3_EMNtW3pECGzzB683O78fAJTtSZE6CLunQCUJslNMSZqmicOuNg3fxdDVxjWSPcII4rS10SrMMQfQUPefhcrdnuCPKC3_0GnCTmwOG5MypY3gRJyc8MguUwqISJtO13FAcQte-PWNsxvKVG1SaIwDOvkwlU5p4klDQu-SygmMAWC6pszbXO-7F8klqk1otQwwKTbRuJ4EsuqqCF93sI_e9LS8JBC103rNaaZ9JBpupQKK68RUaf0pCaEA7Z6jzhVsuV6FHjkjtY4w
+2019/02/13 17:42:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:42:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=_7isCxlXSSeIUBE7-tZFBw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:42:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+# _/home/eucj/gosalesforce
+./gosalesforce.go:50:35: type time.Month is not an expression
+2019/02/13 17:44:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com","exp":1550112242}
+2019/02/13 17:44:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTIxODh9.C2_7YoAXbd9AC2EPdb2_Mrs8dk2F9h6gswGic3m5JEY3Dprc9AstaLBNiLFNppFSCbvagFHA6QyY7fOtcqaD57miuSSdrVUfHMbonUp3E7o2Siv5hYaRyrESQyUspyMEmUfXMfcgsUs6-tP3JLdGVpH4HFTkSZx3GU15gVUppsKTNRl_q-Sn539yRNemh2BxaYDB_ySEWxY8CPH6v1jFqthlxWUiDOpO2fO5_CWcS0yagmUx44irwNBLBPmLHB8jcC9voRIdrPmv5GD6hnxZ09CwopOOyLD5nQfU46g0cKpltG5Ub2YyszNet2IuWhtGlsNtP-zzRKhRmkY0jE7iQA
+2019/02/13 17:44:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:44:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=X-Vt7JhdRDGCJDNujRQB4w;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:44:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 17:45:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112302}
+2019/02/13 17:45:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTIzMDJ9.eMYVk9zp2rkpo7nqgzrO3-vlX0np1pvF2GNEr93CfG51nROi53JgP23UzgmQ7kmmBoz1meMDl9dIvMmml-_HvrfFMdwv-xjWTJzKtpzNmeih0qbtJivYooFDH531-WtcmgBMdqCFURCHqMtxvmjuO3QNFEzLgoZlPMg0F8DlvIc51ahC92c1GZA2yIWShOj4K1S4Kg5-6HcAij6MbtXe_fSr0ngRrXM3CZ5rkorxqL6axHXGx4sVXoZ9xsUMt9p8VsCG7bhO_fSABrmrVTwlXgE7IouYR8CM975gwi8SuRmDc-L_o2w1yjSs05FqkYWxiQTKEMuOVeG_pURfhD30sw
+2019/02/13 17:45:03 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:45:03 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=dkAHJ2goTMWgxWFy-Qpy8w;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:45:03 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:46:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112362}
+2019/02/13 17:46:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTIzNjJ9.Oif27gK20unZpU-rOuqSoqAAETHAc8Kj-dNW_kYjvLqBLxbcDCH8DFwpnXzavoDjcWSt8J3L5tpzMt1e1zFsvvxlV29FzRQwBVGDgRl8wtmBIYL7aYg8PtV5TNNoVQoO6i6_OaYOo2GfPJcWKihiFE04I4ERBRxocnymK4tO5cjHc2etKy7MAGHWgLXqD6wm3aUh-akU-c0YgBLf7x7pej_VOGsPRxsdkN8a64RBmDW3scrwK18ySXdn3fuwarKM7h45WFadFf0bzIFVTFAJ8Dy5wDU6x54uv53pXWyitzDoz3Dz9nBJayqNYOHUdHCHUuS-QizQxXtxHC9iQXhiWw
+2019/02/13 17:46:03 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:46:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=CsBoZAnFQyOrqtcA8B8ypA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:46:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:47:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112422}
+2019/02/13 17:47:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTI0MjJ9.Oif27gK20unZpU-rOuqSoqAAETHAc8Kj-dNW_kYjvLqBLxbcDCH8DFwpnXzavoDjcWSt8J3L5tpzMt1e1zFsvvxlV29FzRQwBVGDgRl8wtmBIYL7aYg8PtV5TNNoVQoO6i6_OaYOo2GfPJcWKihiFE04I4ERBRxocnymK4tO5cjHc2etKy7MAGHWgLXqD6wm3aUh-akU-c0YgBLf7x7pej_VOGsPRxsdkN8a64RBmDW3scrwK18ySXdn3fuwarKM7h45WFadFf0bzIFVTFAJ8Dy5wDU6x54uv53pXWyitzDoz3Dz9nBJayqNYOHUdHCHUuS-QizQxXtxHC9iQXhiWw
+2019/02/13 17:47:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:47:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=O6nY_LUFTUyapAARS34RJA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:47:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:48:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112482}
+2019/02/13 17:48:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTI0ODJ9.Oif27gK20unZpU-rOuqSoqAAETHAc8Kj-dNW_kYjvLqBLxbcDCH8DFwpnXzavoDjcWSt8J3L5tpzMt1e1zFsvvxlV29FzRQwBVGDgRl8wtmBIYL7aYg8PtV5TNNoVQoO6i6_OaYOo2GfPJcWKihiFE04I4ERBRxocnymK4tO5cjHc2etKy7MAGHWgLXqD6wm3aUh-akU-c0YgBLf7x7pej_VOGsPRxsdkN8a64RBmDW3scrwK18ySXdn3fuwarKM7h45WFadFf0bzIFVTFAJ8Dy5wDU6x54uv53pXWyitzDoz3Dz9nBJayqNYOHUdHCHUuS-QizQxXtxHC9iQXhiWw
+2019/02/13 17:48:03 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:48:03 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=INbVrKdQT8aUWOHf1kK_XQ;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:48:03 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:49:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112542}
+2019/02/13 17:49:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTI1NDJ9.Oif27gK20unZpU-rOuqSoqAAETHAc8Kj-dNW_kYjvLqBLxbcDCH8DFwpnXzavoDjcWSt8J3L5tpzMt1e1zFsvvxlV29FzRQwBVGDgRl8wtmBIYL7aYg8PtV5TNNoVQoO6i6_OaYOo2GfPJcWKihiFE04I4ERBRxocnymK4tO5cjHc2etKy7MAGHWgLXqD6wm3aUh-akU-c0YgBLf7x7pej_VOGsPRxsdkN8a64RBmDW3scrwK18ySXdn3fuwarKM7h45WFadFf0bzIFVTFAJ8Dy5wDU6x54uv53pXWyitzDoz3Dz9nBJayqNYOHUdHCHUuS-QizQxXtxHC9iQXhiWw
+2019/02/13 17:49:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:49:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=VgYQZXAhSHuOljSvYG-N8g;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:49:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:50:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112602}
+2019/02/13 17:50:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTI2MDJ9.Oif27gK20unZpU-rOuqSoqAAETHAc8Kj-dNW_kYjvLqBLxbcDCH8DFwpnXzavoDjcWSt8J3L5tpzMt1e1zFsvvxlV29FzRQwBVGDgRl8wtmBIYL7aYg8PtV5TNNoVQoO6i6_OaYOo2GfPJcWKihiFE04I4ERBRxocnymK4tO5cjHc2etKy7MAGHWgLXqD6wm3aUh-akU-c0YgBLf7x7pej_VOGsPRxsdkN8a64RBmDW3scrwK18ySXdn3fuwarKM7h45WFadFf0bzIFVTFAJ8Dy5wDU6x54uv53pXWyitzDoz3Dz9nBJayqNYOHUdHCHUuS-QizQxXtxHC9iQXhiWw
+2019/02/13 17:50:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:50:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=dkWc-OcFQpOGcab2-kK9PA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:50:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:51:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112662}
+2019/02/13 17:51:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTI2NjJ9.Rhdbs1x2MjIyJSn87UTBw7qtMHIdG_DhWHSgyKy0ZoLcL_kx-vc37k5UPiDdEFrY7ZAe9BHxzQmi85MT0ow7hKaYFC-TP-diJQt3645PQsFYrFNZRjSbn2g5PtZJJGrIv5q0vJHgI-_klWMARA2bckKI0ie_l19DQeeB8jqsKPBApZtRKWgG2TU_-i0ZWkJsjB8y8LHVII1lLj4cig-cXoc322ufF8STMaJtvpslEE7w7-wNPZEhZHvxZwhWxQKnQzPs2Kmcs7j_vlpa8gJO_8AN7wsZPd2Sv0IgekwvkG9JFJW7oNJrEDsw0IMjxlu-UuL55tb6gY45qKsJoIougg
+2019/02/13 17:51:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:51:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=9ck4pQlUQXGYrxdi3t1c8A;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:51:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:52:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112722}
+2019/02/13 17:52:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTI3MjJ9.ZF82YWt9Ebco9WTfER0LX2aAPfXzwMI3kaUBl93lCYeK3LDLhRbXHnv3IUd9lxxqcw5eGHwpaRi1YuWPNbNtlR6oQkj2DeVGt0NhrTR5_Y2CCRyzAsxBMIUOtH3jYYcV0BOrY_sbL1wyRttY_E3ETpBKoczLYU4cW5ABneS1WlMhUGNtdnY2bFahjHRr9EugaqqMBRiQK2944q9W8574NJqQFXZvMn36c_fpDJa79_szl2HmhebEKoTc04-OS9vCVbM1XG2OCsEmE3A-MEvu3m78c0fZgQW4EraFZaT_LwMku2gGVxZwAM7sk0Ezc13H_-NGmTalUK7OFp5zamJmQw
+2019/02/13 17:52:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:52:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=w_jJ9jzwTCeb28v2ST1bng;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:52:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:53:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112782}
+2019/02/13 17:53:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTI3ODJ9.ZF82YWt9Ebco9WTfER0LX2aAPfXzwMI3kaUBl93lCYeK3LDLhRbXHnv3IUd9lxxqcw5eGHwpaRi1YuWPNbNtlR6oQkj2DeVGt0NhrTR5_Y2CCRyzAsxBMIUOtH3jYYcV0BOrY_sbL1wyRttY_E3ETpBKoczLYU4cW5ABneS1WlMhUGNtdnY2bFahjHRr9EugaqqMBRiQK2944q9W8574NJqQFXZvMn36c_fpDJa79_szl2HmhebEKoTc04-OS9vCVbM1XG2OCsEmE3A-MEvu3m78c0fZgQW4EraFZaT_LwMku2gGVxZwAM7sk0Ezc13H_-NGmTalUK7OFp5zamJmQw
+2019/02/13 17:53:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:53:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=zqJf4HrOT1SZjrXVmaRErw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:53:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:54:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112842}
+2019/02/13 17:54:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTI4NDJ9.ZF82YWt9Ebco9WTfER0LX2aAPfXzwMI3kaUBl93lCYeK3LDLhRbXHnv3IUd9lxxqcw5eGHwpaRi1YuWPNbNtlR6oQkj2DeVGt0NhrTR5_Y2CCRyzAsxBMIUOtH3jYYcV0BOrY_sbL1wyRttY_E3ETpBKoczLYU4cW5ABneS1WlMhUGNtdnY2bFahjHRr9EugaqqMBRiQK2944q9W8574NJqQFXZvMn36c_fpDJa79_szl2HmhebEKoTc04-OS9vCVbM1XG2OCsEmE3A-MEvu3m78c0fZgQW4EraFZaT_LwMku2gGVxZwAM7sk0Ezc13H_-NGmTalUK7OFp5zamJmQw
+2019/02/13 17:54:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:54:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=0wo6y8TEQJCQUpr8BrV13Q;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:54:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:55:02 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112902}
+2019/02/13 17:55:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTI5MDJ9.ZF82YWt9Ebco9WTfER0LX2aAPfXzwMI3kaUBl93lCYeK3LDLhRbXHnv3IUd9lxxqcw5eGHwpaRi1YuWPNbNtlR6oQkj2DeVGt0NhrTR5_Y2CCRyzAsxBMIUOtH3jYYcV0BOrY_sbL1wyRttY_E3ETpBKoczLYU4cW5ABneS1WlMhUGNtdnY2bFahjHRr9EugaqqMBRiQK2944q9W8574NJqQFXZvMn36c_fpDJa79_szl2HmhebEKoTc04-OS9vCVbM1XG2OCsEmE3A-MEvu3m78c0fZgQW4EraFZaT_LwMku2gGVxZwAM7sk0Ezc13H_-NGmTalUK7OFp5zamJmQw
+2019/02/13 17:55:03 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:55:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=HF-Bpv8GTU6WWzBxLMt4Iw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:55:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:56:01 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550112961}
+2019/02/13 17:56:01 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTI5NjF9.ZF82YWt9Ebco9WTfER0LX2aAPfXzwMI3kaUBl93lCYeK3LDLhRbXHnv3IUd9lxxqcw5eGHwpaRi1YuWPNbNtlR6oQkj2DeVGt0NhrTR5_Y2CCRyzAsxBMIUOtH3jYYcV0BOrY_sbL1wyRttY_E3ETpBKoczLYU4cW5ABneS1WlMhUGNtdnY2bFahjHRr9EugaqqMBRiQK2944q9W8574NJqQFXZvMn36c_fpDJa79_szl2HmhebEKoTc04-OS9vCVbM1XG2OCsEmE3A-MEvu3m78c0fZgQW4EraFZaT_LwMku2gGVxZwAM7sk0Ezc13H_-NGmTalUK7OFp5zamJmQw
+2019/02/13 17:56:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:56:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=g4U6bP6IR86hLtpt2XO45w;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:56:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:57:01 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550113021}
+2019/02/13 17:57:01 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMwMjF9.FB8q_3A8GeH9VvQjzZgzAszc7_gKVJ0_ruVo_EaFXYRhcTaVcK8eeyEen2yv8v0LUWyU47MA5K3GK1a_j2Y6LBLHE2-kbht4RLDgqloK6HrNrDUzBsA8HabnXE6g28AougOxgMG7SSyaCEqt4rApbee2ufEyKX0OCvWR3NQez8LgE81s-iwJtq-5PgBFoF2T-FrnAw8zMRWiJ3FoQwRazQi4Wsl_MVVHOnQQmMAzFQtgpb4_5e3H0njvhj7TDMGPBcdEa4_mw8gTbVTi7FqrQ0XRmT0XZ_O9qMTquEe2QWsSXBH9xfJDKpiVLGD1vbTDCHYArxpAwHbBDzkSw4bIMQ
+2019/02/13 17:57:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:57:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=8sDpbTaKS-6YW7NKlqWwVA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:57:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:58:01 {"typ":"JWT","alg":"RS256"}{"iss":"3MVG9szVa2RxsqBYGJLggbqshksMf0Ukrf_UV_8AZUlUniJQV6EnehTmg7Zx10EZWXHImps4Y4btb9xs18BIp","sub":"isabel.gutierrez@luuna.mx","aud":"https://na75.salesforce.com/","exp":1550113081}
+2019/02/13 17:58:01 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMwODF9.sfC7cpPojpnWm3VvLL4HEYsJ2uPlYXaAKH-VMsDzmcFEg_PQBoqU7_sj63Ru9e_eXeroZD7iLLz5l1zXSil3R4ZTzwGwquXP1g66MYM1Nst5V_rkeCB_C7aPoQfy3OT3YnSn2c-M46LvfWazH_aRJmAx_v9cx4f6YxrOK6s68Tw-vPtmpnAvLox9krA7G9_KL1WeND8nHc1Rt6BnZHA9dAU_ayGEcUGCApmA8zHGDKGLfndo2ZPI6y14ROKILhRJZQ3RW7ew-Q8sWCCs8SxYRGlIRV2Q21MfkGH_f2yVLBv1_oovRjLaaLmtzUVhgT07nzWow_e-8ZYXKVuVpliMCw
+2019/02/13 17:58:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:58:01 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=dxO7KoNKQwO7vuBNIc1cTA;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:58:01 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 17:59:01 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMxNDF9.iK-w7E0gdIrsyZ2yN7qO1dRJbtj_d0yXe_GDXB9OxXN6IL2L_z-sFLQ5ZIRSpgoQh9Kl0fzc8lFJhyfRalsJF5wUOVWDbvZjYht6Ir9m-Tp9qU_NBiuFhoe4x5CsvAtJh9E6UBbtbto3ykk23suFWa9du0ekLNSI1unA3UIIBARF9lG7ePW_eYXIINRbcllP3cfC92UTN8jaxqiTFI0LZlChY0c6dNEYaPHM95lh17emDog3BSUcJ40-LFWFVeiOmWikrkyWnhKTJGwJJxhmsjNq_ETYLaR6-AEdAhzBVq8I4AwC0MDi0Df0R8hHoEgJV1K52Hyb65Z3Yn5wSwHENg
+2019/02/13 17:59:01 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMxNDF9.iK-w7E0gdIrsyZ2yN7qO1dRJbtj_d0yXe_GDXB9OxXN6IL2L_z-sFLQ5ZIRSpgoQh9Kl0fzc8lFJhyfRalsJF5wUOVWDbvZjYht6Ir9m-Tp9qU_NBiuFhoe4x5CsvAtJh9E6UBbtbto3ykk23suFWa9du0ekLNSI1unA3UIIBARF9lG7ePW_eYXIINRbcllP3cfC92UTN8jaxqiTFI0LZlChY0c6dNEYaPHM95lh17emDog3BSUcJ40-LFWFVeiOmWikrkyWnhKTJGwJJxhmsjNq_ETYLaR6-AEdAhzBVq8I4AwC0MDi0Df0R8hHoEgJV1K52Hyb65Z3Yn5wSwHENg
+2019/02/13 17:59:01 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 13 Feb 2019 23:59:01 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=K1d78RGnQimZnMEG2juRBw;Path=/;Domain=.salesforce.com;Expires=Sun, 14-Apr-2019 23:59:01 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 18:00:02 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMyMDJ9.M1rABXkV_93uwbGBwYEuxikvPnXJE_YaxvlOxxDn0VOeJPTiTVQyue0Fph5WKbyaF-CZi97DPF1YYSjE2P20SQwxCqU2JJhXpWpdHFbLHl_S-SsiQUhJ5FUWRruq2Gc8CeO5ku6v3w2cZyQjwlm-OEG6AiAmHTDxS_0M38liIxb0rqgG5ee5tWVC0_x81xtywDKlNZ8_bAAwRPYxq6mY4NvbdQHWbdMLUmItaiL4Hs9Km1tMFSmyGCB0f6gkAPCy3sFxmYqp3fZZzfL3PcHlKdXL4ISOIu17GsQtMKmJJ6bQoheveWCTdeo1NGX3GqXkG2kPUS_VvxQlp3QLMBORag
+2019/02/13 18:00:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMyMDJ9.M1rABXkV_93uwbGBwYEuxikvPnXJE_YaxvlOxxDn0VOeJPTiTVQyue0Fph5WKbyaF-CZi97DPF1YYSjE2P20SQwxCqU2JJhXpWpdHFbLHl_S-SsiQUhJ5FUWRruq2Gc8CeO5ku6v3w2cZyQjwlm-OEG6AiAmHTDxS_0M38liIxb0rqgG5ee5tWVC0_x81xtywDKlNZ8_bAAwRPYxq6mY4NvbdQHWbdMLUmItaiL4Hs9Km1tMFSmyGCB0f6gkAPCy3sFxmYqp3fZZzfL3PcHlKdXL4ISOIu17GsQtMKmJJ6bQoheveWCTdeo1NGX3GqXkG2kPUS_VvxQlp3QLMBORag
+2019/02/13 18:00:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 14 Feb 2019 00:00:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=Qi8AwXlBTs-E1v8k0mSPkA;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:00:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 18:01:02 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMyNjJ9.ZZEm0aRq541nnGHsSylb4xac6wBZn5WPgeqNfbXxDZWuH0VuZ7A31_dRCL3A8Zsp3jwQLjprAhGHJS7RA2afqLUgRfAeBZGqTASzPsflgUZSTGrRuht7BOO1wAYoscTVfFQMZjMxJ65DTzkLd8EiepzXfrwnQWaSy79VTXnQqKzbPV0cV25tIosCwOBssVuza4SfpiWesXe-D4e3spAN6uDrdGFZVLGfvYSqYo2CuPA9ByBJ8fmXGhMCdLbNxEYmPkdUoXALTGCsnqsCYZYMf2lpbjCH1stQRX7khpSMqY1QyYrnt3EFT4CSrRirOTaTc7iL-NFemQ85B_4M-Z76lw
+2019/02/13 18:01:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMyNjJ9.ZZEm0aRq541nnGHsSylb4xac6wBZn5WPgeqNfbXxDZWuH0VuZ7A31_dRCL3A8Zsp3jwQLjprAhGHJS7RA2afqLUgRfAeBZGqTASzPsflgUZSTGrRuht7BOO1wAYoscTVfFQMZjMxJ65DTzkLd8EiepzXfrwnQWaSy79VTXnQqKzbPV0cV25tIosCwOBssVuza4SfpiWesXe-D4e3spAN6uDrdGFZVLGfvYSqYo2CuPA9ByBJ8fmXGhMCdLbNxEYmPkdUoXALTGCsnqsCYZYMf2lpbjCH1stQRX7khpSMqY1QyYrnt3EFT4CSrRirOTaTc7iL-NFemQ85B_4M-Z76lw
+2019/02/13 18:01:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 14 Feb 2019 00:01:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=COjV3GI7R4yKbqOEWhEGiw;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:01:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 18:02:02 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMzMjJ9.PkzCIkb8RSTU31oKGWVzCMEDsOUNbdgia2Nk1lF50TC9PukIKuFn20nEYEBlbmJMtz_V1Oc2pNjhf5D6Ddvc4lMqmIgjf3DAndhCdGC69WtwfoMovoZQFYeWyanDRSEWQEgc-1toUfNlAC-Fc49WSLUyTHGbnUpT_Ndvc9RNRkRfIIclPDurpqnMbRQT4pX_qCh3ofe3C4fHor_CNzCzsV_T9VGs3VDFgRAHYLcP5vZULQyM5L3IdcaBu-yUIWa4jhJWhj3MZZYR678oOTq_fj9VNbdW0Z72H20k_fTMWJRGK71NGKmqwVOIzCUl3KJjIFRNBinuan0PP4FZtV7UBw
+2019/02/13 18:02:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMzMjJ9.PkzCIkb8RSTU31oKGWVzCMEDsOUNbdgia2Nk1lF50TC9PukIKuFn20nEYEBlbmJMtz_V1Oc2pNjhf5D6Ddvc4lMqmIgjf3DAndhCdGC69WtwfoMovoZQFYeWyanDRSEWQEgc-1toUfNlAC-Fc49WSLUyTHGbnUpT_Ndvc9RNRkRfIIclPDurpqnMbRQT4pX_qCh3ofe3C4fHor_CNzCzsV_T9VGs3VDFgRAHYLcP5vZULQyM5L3IdcaBu-yUIWa4jhJWhj3MZZYR678oOTq_fj9VNbdW0Z72H20k_fTMWJRGK71NGKmqwVOIzCUl3KJjIFRNBinuan0PP4FZtV7UBw
+2019/02/13 18:02:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 14 Feb 2019 00:02:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=v2ovW2wkQYSURBMzj5ye9g;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:02:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+4b
+{"error":"invalid_client","error_description":"invalid client credentials"}
+0
+
+
+2019/02/13 18:03:02 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMzODJ9.thFWIRIQCAWLiIzHfyTJW_VYlFV9KRlATClF7U4fv9fHvCN94UUMjzdBDUqSBREtcUZKdcSJ4nw0VuNKF6fgvrqa6pI-sewgRx2oqtKOx_d9ZL5lLl7ggDNsgIq1gmxNHseeXX-KSBwz3eXj1wim6Mns6uIs_KomZgeBf68U710_4coJDaoJOawAgUV63boaQYYm8tj1kKm8cGOwyeRlaFHCRYV468LrsH8bmHhKiElWojCUTDjAnE-PTMQ72pdQCsqa-SX_BqB9UVycr9oMj05bd1Fu4UnCbSJYHdPqi7fSp-_UD3v1fVyB08YFX-E0BzgeupZqxY9P_rKi3dnLhw
+2019/02/13 18:03:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTMzODJ9.thFWIRIQCAWLiIzHfyTJW_VYlFV9KRlATClF7U4fv9fHvCN94UUMjzdBDUqSBREtcUZKdcSJ4nw0VuNKF6fgvrqa6pI-sewgRx2oqtKOx_d9ZL5lLl7ggDNsgIq1gmxNHseeXX-KSBwz3eXj1wim6Mns6uIs_KomZgeBf68U710_4coJDaoJOawAgUV63boaQYYm8tj1kKm8cGOwyeRlaFHCRYV468LrsH8bmHhKiElWojCUTDjAnE-PTMQ72pdQCsqa-SX_BqB9UVycr9oMj05bd1Fu4UnCbSJYHdPqi7fSp-_UD3v1fVyB08YFX-E0BzgeupZqxY9P_rKi3dnLhw
+2019/02/13 18:03:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 14 Feb 2019 00:03:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=gHIJQ6O2Tt2jBOP8IOXH0w;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:03:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 18:04:02 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTM0NDJ9.E1C-IDySxKIa_jEZZeLTbPb_P_wPzIK_MXc33graKfJtn0WKGXK0FszUaGEWKxB1BSENr8lk1ViDQ3M3XYqexH3CO4jWV5938Sn27i2btVokAwHTSgxuHOr8HMHttP2b_yPe2KSha8JQFneqw9SCm_iNosqAcWdElvCPqSMN8lXULF3Ky8p2_THK3wghMNb8xyMrHXAoyVWRWPNq1l0TEycRm6gq3R9Iz0NNglSPeiVqwPXZfS_cS748479ulOIrhfz4n9-rN5zqr-iFUxx38S8u7cTzYtzbDU_AUlMG4p-HZJRMdp_4qBtpLG4lf1BGsmfv9OHj5NvvWxp03lz7Zw
+2019/02/13 18:04:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTM0NDJ9.E1C-IDySxKIa_jEZZeLTbPb_P_wPzIK_MXc33graKfJtn0WKGXK0FszUaGEWKxB1BSENr8lk1ViDQ3M3XYqexH3CO4jWV5938Sn27i2btVokAwHTSgxuHOr8HMHttP2b_yPe2KSha8JQFneqw9SCm_iNosqAcWdElvCPqSMN8lXULF3Ky8p2_THK3wghMNb8xyMrHXAoyVWRWPNq1l0TEycRm6gq3R9Iz0NNglSPeiVqwPXZfS_cS748479ulOIrhfz4n9-rN5zqr-iFUxx38S8u7cTzYtzbDU_AUlMG4p-HZJRMdp_4qBtpLG4lf1BGsmfv9OHj5NvvWxp03lz7Zw
+2019/02/13 18:04:03 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 14 Feb 2019 00:04:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=DIurLcTaQcyWPBiZB-IhyA;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:04:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 18:05:02 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTM1MDJ9.kJAsyuEmJR83QLht7P7n6_pFl7mlMq_IQfpPSfQ60NcpqJuPKss2l7vQcQgtk9u_Wdzg1HQ38byphWbo3wrUjE5jjKf0YEGdAkWK63ZyFK8m6pDdVVZsal9mu7ZmhJf7uTY4p0DrhStop5njzW_mV-qQSsCy5eQb0fNZTuBwLAojOKgJrSmk4fUiXYm_WTWTk_ELc6C8dZA_FSgfwORKuv4zFc01ThGCFH84kueduRSbYjnUrTcGwW5gXIllSqfwFyz660lL46IPGJZs4qer0vX7EotHkF3zjZ_8yI-ktsXt3oBdoKjBdLta1Ci-mL3EUikaibMqaFsVHRKJm_QiDg
+2019/02/13 18:05:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbmE3NS5zYWxlc2ZvcmNlLmNvbS8iLCJleHAiOjE1NTAxMTM1MDJ9.kJAsyuEmJR83QLht7P7n6_pFl7mlMq_IQfpPSfQ60NcpqJuPKss2l7vQcQgtk9u_Wdzg1HQ38byphWbo3wrUjE5jjKf0YEGdAkWK63ZyFK8m6pDdVVZsal9mu7ZmhJf7uTY4p0DrhStop5njzW_mV-qQSsCy5eQb0fNZTuBwLAojOKgJrSmk4fUiXYm_WTWTk_ELc6C8dZA_FSgfwORKuv4zFc01ThGCFH84kueduRSbYjnUrTcGwW5gXIllSqfwFyz660lL46IPGJZs4qer0vX7EotHkF3zjZ_8yI-ktsXt3oBdoKjBdLta1Ci-mL3EUikaibMqaFsVHRKJm_QiDg
+2019/02/13 18:05:02 HTTP/1.1 400 Bad Request
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 14 Feb 2019 00:05:02 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=jREqsNcoQUKxdcnMxG5HBw;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:05:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+X-Robots-Tag: none
+
+43
+{"error":"invalid_grant","error_description":"audience is invalid"}
+0
+
+
+2019/02/13 18:06:02 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbG9naW4uc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMTM1NjJ9.sA-B6gWHze9Z0pBoOFakY22IF3g2sHXHmgO9jUIqRJpBej2t8fKU5tbEvEnMTY9Ga3DZ_8QH-LLNZvbc0cp7q4EHyn4cpWrDD21OGDkGc4XSGAll0QDCVfliERcS_Fv7qGvLavowOBJJvGqAhmR7E9FMagwvfGHCTMgPtA34mfdhCc1HkObUU46yVL4IZm3rcANdpNUyrFxhQKlqj17AiyYJQ2PjhyTDBvq6EYV1wkcDdo1-590YUV1vd7rpF-ki0s3j248mFQ82DfxGiTnvZHcN6cl9EEbNIKcXDTnI9BVujgYRg2za8ITDbe-tqZcb0yx0I7Byf2BI2sACleveLw
+2019/02/13 18:06:02 POST /services/oauth2/token HTTP/1.1
+Host: luuna.my.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbG9naW4uc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMTM1NjJ9.sA-B6gWHze9Z0pBoOFakY22IF3g2sHXHmgO9jUIqRJpBej2t8fKU5tbEvEnMTY9Ga3DZ_8QH-LLNZvbc0cp7q4EHyn4cpWrDD21OGDkGc4XSGAll0QDCVfliERcS_Fv7qGvLavowOBJJvGqAhmR7E9FMagwvfGHCTMgPtA34mfdhCc1HkObUU46yVL4IZm3rcANdpNUyrFxhQKlqj17AiyYJQ2PjhyTDBvq6EYV1wkcDdo1-590YUV1vd7rpF-ki0s3j248mFQ82DfxGiTnvZHcN6cl9EEbNIKcXDTnI9BVujgYRg2za8ITDbe-tqZcb0yx0I7Byf2BI2sACleveLw
+2019/02/13 18:06:03 HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 14 Feb 2019 00:06:03 GMT
+Expect-Ct: max-age=0; report-uri="https://a.forcesslreports.com/Expect-CT-report/00D41000002lGJtm";
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Public-Key-Pins-Report-Only: pin-sha256="9n0izTnSRF+W4W4JTq51avSXkWhQB8duS2bxVLfzXsY="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g="; max-age=86400; includeSubDomains; report-uri="https://a.forcesslreports.com/hpkp-report/00D41000002lGJtm";
+Set-Cookie: BrowserId=bUuKHvqDQtCzBo_APDpEeg;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:06:03 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536002; includeSubDomains
+Vary: Accept-Encoding
+X-Robots-Tag: none
+
+12e
+{"access_token":"00D41000002lGJt!ARgAQEYNG_AXHki4pvaQK3rr0AHIgR6SlRlnbevpwEr2SRxDLKrZHc3qQ6hbOCpRV8G7PuCitWCXVTSQyqBrSGqGAcONpY47","scope":"web api full","instance_url":"https://luuna.my.salesforce.com","id":"https://login.salesforce.com/id/00D41000002lGJtEAM/00541000002YEvaAAG","token_type":"Bearer"}
+0
+
+
+# _/home/eucj/gosalesforce
+./gosalesforce.go:97:1: missing return at end of function
+2019/02/13 18:08:02 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbG9naW4uc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMTM2ODJ9.LPJsoryXTc1CWzx8BL0naKM5SuV9UaToVmJjyWr0F4ilpLJej1K2w43jNNymRAM8Hgm6TUDVERwG3WeEEybW2gWC_uhwv6jTiSh1jWyVPbSNA-UWbCRS-m3-manWzK1wVJGDRCfFs6zXQZsfz6sdeiKatBJDuJZXNduJ-qCcxU6Y8BvfxREw4xUTrR9ZYoh_nZjWEMt_E1kFs4K90_3nxzSk91H75JYmvHUlkfuFBPZ1HsPUlY3NQ4rbc_yoKajDGXHw2BLmS5UrhPtjYp-092BK-54LySYXc5E_1UJCQDNMyVBmg2mBIalz14hAts7BaRBCPlchA9whNG_tkz10CA
+2019/02/13 18:08:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbG9naW4uc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMTM2ODJ9.LPJsoryXTc1CWzx8BL0naKM5SuV9UaToVmJjyWr0F4ilpLJej1K2w43jNNymRAM8Hgm6TUDVERwG3WeEEybW2gWC_uhwv6jTiSh1jWyVPbSNA-UWbCRS-m3-manWzK1wVJGDRCfFs6zXQZsfz6sdeiKatBJDuJZXNduJ-qCcxU6Y8BvfxREw4xUTrR9ZYoh_nZjWEMt_E1kFs4K90_3nxzSk91H75JYmvHUlkfuFBPZ1HsPUlY3NQ4rbc_yoKajDGXHw2BLmS5UrhPtjYp-092BK-54LySYXc5E_1UJCQDNMyVBmg2mBIalz14hAts7BaRBCPlchA9whNG_tkz10CA
+2019/02/13 18:08:02 HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 14 Feb 2019 00:08:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=lKTiZm58TdamTESeHSNqzA;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:08:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=zyMRIN6kTfCM6crWLkmRDQ;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:08:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+12e
+{"access_token":"00D41000002lGJt!ARgAQEYNG_AXHki4pvaQK3rr0AHIgR6SlRlnbevpwEr2SRxDLKrZHc3qQ6hbOCpRV8G7PuCitWCXVTSQyqBrSGqGAcONpY47","scope":"web api full","instance_url":"https://luuna.my.salesforce.com","id":"https://login.salesforce.com/id/00D41000002lGJtEAM/00541000002YEvaAAG","token_type":"Bearer"}
+0
+
+
+2019/02/13 18:09:02 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbG9naW4uc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMTM3NDJ9.eDFYh8ezG2XUq47Q83vBbEfGrr1yXS6Ej7ikipIsqyoIRo9SLQKh0yBh85tZEJesbO5bqAElNWrL9Y9sbo18bnGzYqps0aNNDxvtpEXmsJyGrlT8FsIYD0oXx-mjDaxqNvOLqM-kXue9fF2FwW69dIoHLPqrt9JFIGTgOkYOGboxvp2nXYQ30ePt7JRCIhqqZxcSXbPmA1EGY6s872mRUjuKipjVRTUF261zVpmp6HOtvNFOR5hyk0ySZmJjSIKnLtv0qxw1CFPkQITfyitz7v_lsoC6SuuQOS3Kl7YtdJhAQSOM6irsOWpK8csctL5kOQAmyZ-BU5DbRGdR_EokRg
+2019/02/13 18:09:02 POST /services/oauth2/token HTTP/1.1
+Host: login.salesforce.com
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&assertion=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiIzTVZHOXN6VmEyUnhzcUJZR0pMZ2dicXNoa3NNZjBVa3JmX1VWXzhBWlVsVW5pSlFWNkVuZWhUbWc3WngxMEVaV1hISW1wczRZNGJ0Yjl4czE4QklwIiwic3ViIjoiaXNhYmVsLmd1dGllcnJlekBsdXVuYS5teCIsImF1ZCI6Imh0dHBzOi8vbG9naW4uc2FsZXNmb3JjZS5jb20iLCJleHAiOjE1NTAxMTM3NDJ9.eDFYh8ezG2XUq47Q83vBbEfGrr1yXS6Ej7ikipIsqyoIRo9SLQKh0yBh85tZEJesbO5bqAElNWrL9Y9sbo18bnGzYqps0aNNDxvtpEXmsJyGrlT8FsIYD0oXx-mjDaxqNvOLqM-kXue9fF2FwW69dIoHLPqrt9JFIGTgOkYOGboxvp2nXYQ30ePt7JRCIhqqZxcSXbPmA1EGY6s872mRUjuKipjVRTUF261zVpmp6HOtvNFOR5hyk0ySZmJjSIKnLtv0qxw1CFPkQITfyitz7v_lsoC6SuuQOS3Kl7YtdJhAQSOM6irsOWpK8csctL5kOQAmyZ-BU5DbRGdR_EokRg
+2019/02/13 18:09:02 HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+Content-Type: application/json;charset=UTF-8
+Date: Thu, 14 Feb 2019 00:09:02 GMT
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Set-Cookie: BrowserId=20fsOvfeSDGtU8u-NHH2QA;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:09:02 GMT;Max-Age=5184000
+Set-Cookie: BrowserId=FR1thtqAT36rMfPLW4nrhQ;Path=/;Domain=.salesforce.com;Expires=Mon, 15-Apr-2019 00:09:02 GMT;Max-Age=5184000
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+
+12e
+{"access_token":"00D41000002lGJt!ARgAQEYNG_AXHki4pvaQK3rr0AHIgR6SlRlnbevpwEr2SRxDLKrZHc3qQ6hbOCpRV8G7PuCitWCXVTSQyqBrSGqGAcONpY47","scope":"web api full","instance_url":"https://luuna.my.salesforce.com","id":"https://login.salesforce.com/id/00D41000002lGJtEAM/00541000002YEvaAAG","token_type":"Bearer"}
+0
+
+
