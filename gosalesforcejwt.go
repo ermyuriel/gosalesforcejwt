@@ -19,6 +19,7 @@ import (
 	"time"
 )
 
+//SalesforceTokenResponse represents the standars succesful authentication response
 type SalesforceTokenResponse struct {
 	AccessToken string `json:"access_token"`
 	Scope       string `json:"scope"`
@@ -27,16 +28,19 @@ type SalesforceTokenResponse struct {
 	TokenType   string `json:"token_type"`
 }
 
+//SalesforceErrorResponse represents a standard flow error response
 type SalesforceErrorResponse struct {
 	Error            string `json:"error"`
 	ErrorDescription string `json:"error_description"`
 }
 
+//JWTHeader represents Salesforce required header fields in a standard JWT header format
 type JWTHeader struct {
 	Typ string `json:"typ"`
 	Alg string `json:"alg"`
 }
 
+//JWTClaims repesents Salesforce required claims in standard JWT claim format
 type JWTClaims struct {
 	Iss string `json:"iss"`
 	Sub string `json:"sub"`
@@ -44,6 +48,7 @@ type JWTClaims struct {
 	Exp int64  `json:"exp,number"`
 }
 
+//JWTFlowLogIn returns either a SalesforceTokenResponse or an error and possibly a SalesforceErrorResponse to help with debugging if communication was succesful but configuration issues were found
 func JWTFlowLogIn(sandbox bool) (*SalesforceTokenResponse, error, *SalesforceErrorResponse) {
 
 	clientID := os.Getenv("CLIENT_ID")
