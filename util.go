@@ -1,4 +1,4 @@
-package main
+package gosalesforcejwt
 
 import (
 	"encoding/base64"

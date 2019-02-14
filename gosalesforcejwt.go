@@ -1,4 +1,4 @@
-package main
+package gosalesforcejwt
 
 import (
 	"bytes"
@@ -9,16 +9,26 @@ import (
 	"crypto/x509"
 	"encoding/json"
 	"encoding/pem"
+	"errors"
 	"io/ioutil"
-	"log"
 	"net/http"
-	"net/http/httputil"
 	"net/url"
 	"os"
 	"time"
-
-	"github.com/joho/godotenv"
 )
+
+type SalesforceTokenResponse struct {
+	AccessToken string `json:"access_token"`
+	Scope       string `json:"scope"`
+	InstanceURL string `json:" instance_url"`
+	ID          string `json:"id"`
+	TokenType   string `json:"token_type"`
+}
+
+type SalesforceErrorResponse struct {
+	Error            string `json:"error"`
+	ErrorDescription string `json:"error_description"`
+}
 
 type JWTHeader struct {
 	Typ string `json:"typ"`
@@ -32,7 +42,7 @@ type JWTClaims struct {
 	Exp int64  `json:"exp,number"`
 }
 
-func JWTFlowLogIn(sandbox bool) (string, error) {
+func JWTFlowLogIn(sandbox bool) (*SalesforceTokenResponse, error, *SalesforceErrorResponse) {
 
 	clientID := os.Getenv("CLIENT_ID")
 	user := os.Getenv("SF_USER")
@@ -55,79 +65,82 @@ func JWTFlowLogIn(sandbox bool) (string, error) {
 	jh, err := json.Marshal(header)
 
 	if err != nil {
-		return "", err
+		return nil, err, nil
 	}
 	jc, err := json.Marshal(claims)
 
 	if err != nil {
-		return "", err
+		return nil, err, nil
 	}
 
 	request := EncodeBase64URL(jh) + "." + EncodeBase64URL(jc)
 
-	s := sign(request)
+	s, err := sign(request)
 
 	signature := EncodeBase64URL(s)
 
 	signedRequest := request + "." + signature
-
-	log.Println(signedRequest)
 
 	body := "grant_type=" + url.QueryEscape("urn:ietf:params:oauth:grant-type:jwt-bearer") + "&assertion=" + signedRequest
 
 	authRequest, err := http.NewRequest("POST", os.Getenv("INSTANCE")+"/services/oauth2/token", bytes.NewBuffer([]byte(body)))
 
 	if err != nil {
-		log.Panicln(err)
+		return nil, err, nil
 	}
 	authRequest.Header.Add("Content-Type", "application/x-www-form-urlencoded")
-
-	r, _ := httputil.DumpRequest(authRequest, true)
-	log.Println(string(r))
 
 	authResponse, err := http.DefaultClient.Do(authRequest)
 
 	if err != nil {
-		log.Panicln(err)
+		return nil, err, nil
 	}
 
-	r, _ = httputil.DumpResponse(authResponse, true)
-	log.Println(string(r))
+	if authResponse.StatusCode != 200 {
 
-	return "", nil
+		errorResponse := &SalesforceErrorResponse{}
+
+		json.NewDecoder(authResponse.Body).Decode(errorResponse)
+
+		return nil, errors.New(errorResponse.ErrorDescription), errorResponse
+
+	}
+
+	token := &SalesforceTokenResponse{}
+
+	json.NewDecoder(authResponse.Body).Decode(token)
+
+	return token, nil, nil
 
 }
 
-func main() {
-
-	godotenv.Load()
-	JWTFlowLogIn(false)
-
-}
-
-func sign(request string) []byte {
+func sign(request string) ([]byte, error) {
 
 	keyBytes, err := ioutil.ReadFile(os.Getenv("KEY_PATH"))
+
 	if err != nil {
-		log.Panicln(err)
+		return nil, err
 	}
+
 	block, rest := pem.Decode([]byte(keyBytes))
+
 	if len(rest) != 0 {
-		log.Panicln("Invalid key")
+		return nil, errors.New("Invalid key")
 	}
 
 	key, err := x509.ParsePKCS1PrivateKey(block.Bytes)
+
 	if err != nil {
-		log.Panicln(err)
+		return nil, err
 	}
 
 	sum := sha256.Sum256([]byte(request))
 
-	if sigBytes, err := rsa.SignPKCS1v15(rand.Reader, key, crypto.SHA256, sum[:]); err == nil {
-		return sigBytes
-	} else {
-		log.Panicln(err)
-	}
+	sigBytes, err := rsa.SignPKCS1v15(rand.Reader, key, crypto.SHA256, sum[:])
 
-	return []byte{}
+	if err != nil {
+		return nil, err
+	}
+	return sigBytes, nil
+
 }
