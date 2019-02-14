@@ -7,6 +7,7 @@ import (
 	"crypto/rsa"
 	"crypto/sha256"
 	"crypto/x509"
+	"encoding/base64"
 	"encoding/json"
 	"encoding/pem"
 	"errors"
@@ -14,6 +15,7 @@ import (
 	"net/http"
 	"net/url"
 	"os"
+	"strings"
 	"time"
 )
 
@@ -73,11 +75,11 @@ func JWTFlowLogIn(sandbox bool) (*SalesforceTokenResponse, error, *SalesforceErr
 		return nil, err, nil
 	}
 
-	request := EncodeBase64URL(jh) + "." + EncodeBase64URL(jc)
+	request := encodeBase64URL(jh) + "." + encodeBase64URL(jc)
 
 	s, err := sign(request)
 
-	signature := EncodeBase64URL(s)
+	signature := encodeBase64URL(s)
 
 	signedRequest := request + "." + signature
 
@@ -142,5 +144,11 @@ func sign(request string) ([]byte, error) {
 		return nil, err
 	}
 	return sigBytes, nil
+
+}
+
+func encodeBase64URL(data []byte) string {
+
+	return strings.TrimRight(base64.URLEncoding.EncodeToString(data), "=")
 
 }
