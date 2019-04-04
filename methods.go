@@ -110,6 +110,31 @@ func SearchObject(objectName string, query string, fields []string, limit int) (
 	}
 	responseMap := make(map[string]interface{})
 	json.NewDecoder(resp.Body).Decode(&responseMap)
-
+	if responseMap["searchRecords"] == nil {
+		return nil, fmt.Errorf("Unexpected response body %v", responseMap)
+	}
 	return responseMap["searchRecords"].([]interface{}), nil
+}
+
+func Query(query string) ([]interface{}, error) {
+	reqURL := fmt.Sprintf("%s/services/data/v45.0/query/?q=%s", os.Getenv("SALESFORCE_ENDPOINT"), url.QueryEscape(query))
+	r, _ := http.NewRequest("GET", reqURL, nil)
+	r.Header.Set("Authorization", fmt.Sprintf("Bearer %s", salesforceToken.AccessToken))
+	r.Header.Set("Accept", "application/json")
+	resp, err := client.Do(r)
+	if err != nil {
+		return nil, err
+	}
+
+	if resp.StatusCode != 200 {
+		bs, _ := ioutil.ReadAll(resp.Body)
+
+		return nil, fmt.Errorf("Status %v: %s with query %s", resp.StatusCode, string(bs), reqURL)
+	}
+	responseMap := make(map[string]interface{})
+	json.NewDecoder(resp.Body).Decode(&responseMap)
+	if responseMap["records"] == nil {
+		return nil, fmt.Errorf("Unexpected response body %v", responseMap)
+	}
+	return responseMap["records"].([]interface{}), nil
 }

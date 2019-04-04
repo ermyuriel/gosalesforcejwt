@@ -7,8 +7,6 @@ import (
 	"os"
 	"testing"
 	"time"
-
-	"github.com/joho/godotenv"
 )
 
 func TestLogIn(t *testing.T) {
@@ -34,7 +32,7 @@ func TestCreateLead(t *testing.T) {
 	log.Println(create.ID)
 }
 func TestCreateContact(t *testing.T) {
-	godotenv.Load()
+
 	Init()
 	create, err := PostObject("Contact", struct {
 		LastName string `json:"LastName"`
@@ -93,7 +91,7 @@ func TestPatchLead(t *testing.T) {
 	}
 }
 func TestSearchLead(t *testing.T) {
-	godotenv.Load()
+
 	Init()
 	name := fmt.Sprintf("Test:%v", time.Now().Unix())
 	_, err := PostObject("Lead", struct {
@@ -105,6 +103,25 @@ func TestSearchLead(t *testing.T) {
 		t.Fatal(err)
 	}
 	results, err := SearchObject("Lead", name, []string{"Id", "LastName", "Company", "Status", "IsConverted"}, 10)
+	if err != nil || len(results) != 1 {
+		t.Fatal(err)
+	}
+	log.Println(results)
+}
+
+func TestSearchLeadQuery(t *testing.T) {
+
+	Init()
+	name := fmt.Sprintf("Test:%v", time.Now().Unix())
+	_, err := PostObject("Lead", struct {
+		LastName string `json:"LastName"`
+		Company  string `json:"Company"`
+		Status   string `json:"Status"`
+	}{LastName: name, Company: "Test", Status: "0"})
+	if err != nil {
+		t.Fatal(err)
+	}
+	results, err := Query(fmt.Sprintf("select Id,Name,Company from Lead where LastName='%s'", name))
 	if err != nil || len(results) != 1 {
 		t.Fatal(err)
 	}
