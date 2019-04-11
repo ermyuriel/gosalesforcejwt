@@ -127,3 +127,20 @@ func TestSearchLeadQuery(t *testing.T) {
 	}
 	log.Println(results)
 }
+
+func TestDeleteLead(t *testing.T) {
+	Init()
+	create, err := PostObject("Lead", struct {
+		LastName string `json:"LastName"`
+		Company  string `json:"Company"`
+		Status   string `json:"Status"`
+	}{LastName: fmt.Sprintf("Test:%v", time.Now().Unix()), Company: "Test", Status: "0"})
+	if err != nil {
+		t.Fatal(err)
+	}
+	_, err = DeleteObject("Lead", create.ID)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+}
