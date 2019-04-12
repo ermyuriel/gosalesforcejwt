@@ -50,7 +50,7 @@ func PostObject(objectName string, data interface{}) (*SalesforceAPIResponse, er
 	if resp.StatusCode == 400 {
 		bs, _ := ioutil.ReadAll(resp.Body)
 
-		return nil, fmt.Errorf("Status %v:%s", resp.StatusCode, string(bs))
+		return nil, fmt.Errorf("%s:Status %v:%s", objectName, resp.StatusCode, string(bs))
 	}
 	respBody := &SalesforceAPIResponse{}
 	json.NewDecoder(resp.Body).Decode(respBody)
@@ -69,7 +69,7 @@ func GetObject(objectName string, ID string, fields []string) (map[string]interf
 	}
 	if resp.StatusCode == 404 || resp.StatusCode == 400 {
 		bs, _ := ioutil.ReadAll(resp.Body)
-		return nil, fmt.Errorf("Status %v:%s", resp.StatusCode, string(bs))
+		return nil, fmt.Errorf("%s:Status %v:%s", objectName, resp.StatusCode, string(bs))
 	}
 	respBody := make(map[string]interface{})
 	json.NewDecoder(resp.Body).Decode(&respBody)
@@ -88,7 +88,7 @@ func PatchObject(objectName string, ID string, data interface{}) error {
 	}
 	if resp.StatusCode == 404 || resp.StatusCode == 400 {
 		bs, _ := ioutil.ReadAll(resp.Body)
-		return fmt.Errorf("Status %v:%s", resp.StatusCode, string(bs))
+		return fmt.Errorf("%s:Status %v:%s", objectName, resp.StatusCode, string(bs))
 	}
 	return nil
 }
@@ -106,7 +106,7 @@ func SearchObject(objectName string, query string, fields []string, limit int) (
 	if resp.StatusCode != 200 {
 		bs, _ := ioutil.ReadAll(resp.Body)
 
-		return nil, fmt.Errorf("Status %v: %s with query %s", resp.StatusCode, string(bs), reqURL)
+		return nil, fmt.Errorf("%s:Status %v: %s with query %s", objectName, resp.StatusCode, string(bs), reqURL)
 	}
 	responseMap := make(map[string]interface{})
 	json.NewDecoder(resp.Body).Decode(&responseMap)
@@ -150,7 +150,7 @@ func DeleteObject(objectName string, ID string) (map[string]interface{}, error) 
 	}
 	if resp.StatusCode != 204 {
 		bs, _ := ioutil.ReadAll(resp.Body)
-		return nil, fmt.Errorf("Status %v:%s", resp.StatusCode, string(bs))
+		return nil, fmt.Errorf("%s:Status %v:%s", objectName, resp.StatusCode, string(bs))
 	}
 	respBody := make(map[string]interface{})
 	json.NewDecoder(resp.Body).Decode(&respBody)
