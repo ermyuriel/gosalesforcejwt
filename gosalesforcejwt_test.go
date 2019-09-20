@@ -20,7 +20,7 @@ func TestLogIn(t *testing.T) {
 	log.Println(token)
 }
 func TestCreateLead(t *testing.T) {
-	Init()
+	Init(true)
 	create, err := PostObject("Lead", struct {
 		LastName string `json:"LastName"`
 		Company  string `json:"Company"`
@@ -33,7 +33,7 @@ func TestCreateLead(t *testing.T) {
 }
 func TestCreateContact(t *testing.T) {
 
-	Init()
+	Init(true)
 	create, err := PostObject("Contact", struct {
 		LastName string `json:"LastName"`
 		Email    string `json:"Email"`
@@ -45,7 +45,7 @@ func TestCreateContact(t *testing.T) {
 	log.Println(create.ID)
 }
 func TestGetLead(t *testing.T) {
-	Init()
+	Init(true)
 	create, err := PostObject("Lead", struct {
 		LastName string `json:"LastName"`
 		Company  string `json:"Company"`
@@ -61,7 +61,7 @@ func TestGetLead(t *testing.T) {
 	log.Println(lead)
 }
 func TestPatchLead(t *testing.T) {
-	Init()
+	Init(true)
 	create, err := PostObject("Lead", struct {
 		LastName string `json:"LastName"`
 		Company  string `json:"Company"`
@@ -92,7 +92,7 @@ func TestPatchLead(t *testing.T) {
 }
 func TestSearchLead(t *testing.T) {
 
-	Init()
+	Init(true)
 	name := fmt.Sprintf("Test:%v", time.Now().Unix())
 	_, err := PostObject("Lead", struct {
 		LastName string `json:"LastName"`
@@ -111,7 +111,7 @@ func TestSearchLead(t *testing.T) {
 
 func TestSearchLeadQuery(t *testing.T) {
 
-	Init()
+	Init(true)
 	name := fmt.Sprintf("Test:%v", time.Now().Unix())
 	_, err := PostObject("Lead", struct {
 		LastName string `json:"LastName"`
@@ -129,7 +129,7 @@ func TestSearchLeadQuery(t *testing.T) {
 }
 
 func TestDeleteLead(t *testing.T) {
-	Init()
+	Init(true)
 	create, err := PostObject("Lead", struct {
 		LastName string `json:"LastName"`
 		Company  string `json:"Company"`

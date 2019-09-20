@@ -48,6 +48,7 @@ type JWTClaims struct {
 
 //LogIn receives a request, it's SHA256 signature and an endpoint. Returns either a SalesforceTokenResponse or an error and possibly a SalesforceErrorResponse to help with debugging if communication was succesful but configuration issues were found
 func LogIn(request, signature, endpoint string) (*SalesforceTokenResponse, error) {
+
 	signedRequest := request + "." + signature
 	body := "grant_type=" + url.QueryEscape("urn:ietf:params:oauth:grant-type:jwt-bearer") + "&assertion=" + signedRequest
 	authRequest, err := http.NewRequest("POST", endpoint+"/services/oauth2/token", bytes.NewBuffer([]byte(body)))

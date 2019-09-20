@@ -7,6 +7,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"net/http/httputil"
 	"net/url"
 	"os"
 	"strings"
@@ -14,6 +15,7 @@ import (
 
 var salesforceToken *SalesforceTokenResponse
 var client *http.Client
+var logging bool
 
 type SalesforceAPIResponse struct {
 	ID      string   `json:"id"`
@@ -21,7 +23,9 @@ type SalesforceAPIResponse struct {
 	Success bool     `json:"success"`
 }
 
-func Init() error {
+func Init(logRequests bool) error {
+	logging = logRequests
+
 	keyBytes, err := ioutil.ReadFile(os.Getenv("SALESFORCE_KEY_PATH"))
 	if err != nil {
 		log.Panicln(err)
@@ -43,13 +47,15 @@ func PostObject(objectName string, data interface{}) (*SalesforceAPIResponse, er
 	r, _ := http.NewRequest("POST", reqURL, bytes.NewBuffer(jc))
 	r.Header.Set("Authorization", fmt.Sprintf("Bearer %s", salesforceToken.AccessToken))
 	r.Header.Set("Content-Type", "application/json")
+	if logging {
+		logRequest(r)
+	}
 	resp, err := client.Do(r)
 	if err != nil {
 		return nil, err
 	}
 	if resp.StatusCode == 400 {
 		bs, _ := ioutil.ReadAll(resp.Body)
-
 		return nil, fmt.Errorf("%s:Status %v:%s", objectName, resp.StatusCode, string(bs))
 	}
 	respBody := &SalesforceAPIResponse{}
@@ -63,6 +69,9 @@ func GetObject(objectName string, ID string, fields []string) (map[string]interf
 	r, _ := http.NewRequest("GET", reqURL, nil)
 	r.Header.Set("Authorization", fmt.Sprintf("Bearer %s", salesforceToken.AccessToken))
 	r.Header.Set("Accept", "application/json")
+	if logging {
+		logRequest(r)
+	}
 	resp, err := client.Do(r)
 	if err != nil {
 		return nil, err
@@ -82,6 +91,9 @@ func PatchObject(objectName string, ID string, data interface{}) error {
 	r, _ := http.NewRequest("PATCH", reqURL, bytes.NewBuffer(jc))
 	r.Header.Set("Authorization", fmt.Sprintf("Bearer %s", salesforceToken.AccessToken))
 	r.Header.Set("Content-Type", "application/json")
+	if logging {
+		logRequest(r)
+	}
 	resp, err := client.Do(r)
 	if err != nil {
 		return err
@@ -98,6 +110,9 @@ func SearchObject(objectName string, query string, fields []string, limit int) (
 	r, _ := http.NewRequest("GET", reqURL, nil)
 	r.Header.Set("Authorization", fmt.Sprintf("Bearer %s", salesforceToken.AccessToken))
 	r.Header.Set("Accept", "application/json")
+	if logging {
+		logRequest(r)
+	}
 	resp, err := client.Do(r)
 	if err != nil {
 		return nil, err
@@ -121,6 +136,9 @@ func Query(query string) ([]interface{}, error) {
 	r, _ := http.NewRequest("GET", reqURL, nil)
 	r.Header.Set("Authorization", fmt.Sprintf("Bearer %s", salesforceToken.AccessToken))
 	r.Header.Set("Accept", "application/json")
+	if logging {
+		logRequest(r)
+	}
 	resp, err := client.Do(r)
 	if err != nil {
 		return nil, err
@@ -143,6 +161,9 @@ func DeleteObject(objectName string, ID string) (map[string]interface{}, error) 
 	r, _ := http.NewRequest("DELETE", reqURL, nil)
 	r.Header.Set("Authorization", fmt.Sprintf("Bearer %s", salesforceToken.AccessToken))
 	r.Header.Set("Accept", "application/json")
+	if logging {
+		logRequest(r)
+	}
 	resp, err := client.Do(r)
 	if err != nil {
 		return nil, err
@@ -154,4 +175,21 @@ func DeleteObject(objectName string, ID string) (map[string]interface{}, error) 
 	respBody := make(map[string]interface{})
 	json.NewDecoder(resp.Body).Decode(&respBody)
 	return respBody, nil
+}
+
+func logRequest(req *http.Request) {
+
+	buf, _ := ioutil.ReadAll(req.Body)
+	toFill := ioutil.NopCloser(bytes.NewBuffer(buf))
+
+	dump, err := httputil.DumpRequest(req, true)
+
+	if err == nil {
+		log.Println(string(dump))
+	} else {
+		log.Println(err)
+	}
+
+	req.Body = toFill
+
 }
