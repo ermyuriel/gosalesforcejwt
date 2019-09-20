@@ -179,9 +179,6 @@ func DeleteObject(objectName string, ID string) (map[string]interface{}, error) 
 
 func logRequest(req *http.Request) {
 
-	buf, _ := ioutil.ReadAll(req.Body)
-	toFill := ioutil.NopCloser(bytes.NewBuffer(buf))
-
 	dump, err := httputil.DumpRequest(req, true)
 
 	if err == nil {
@@ -189,7 +186,5 @@ func logRequest(req *http.Request) {
 	} else {
 		log.Println(err)
 	}
-
-	req.Body = toFill
 
 }
