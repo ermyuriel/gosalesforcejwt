@@ -54,6 +54,11 @@ func PostObject(objectName string, data interface{}) (*SalesforceAPIResponse, er
 	if err != nil {
 		return nil, err
 	}
+
+	if logging {
+		logResponse(resp)
+	}
+
 	if resp.StatusCode == 400 {
 		bs, _ := ioutil.ReadAll(resp.Body)
 		return nil, fmt.Errorf("%s:Status %v:%s", objectName, resp.StatusCode, string(bs))
@@ -76,6 +81,11 @@ func GetObject(objectName string, ID string, fields []string) (map[string]interf
 	if err != nil {
 		return nil, err
 	}
+
+	if logging {
+		logResponse(resp)
+	}
+
 	if resp.StatusCode == 404 || resp.StatusCode == 400 {
 		bs, _ := ioutil.ReadAll(resp.Body)
 		return nil, fmt.Errorf("%s:Status %v:%s", objectName, resp.StatusCode, string(bs))
@@ -98,6 +108,11 @@ func PatchObject(objectName string, ID string, data interface{}) error {
 	if err != nil {
 		return err
 	}
+
+	if logging {
+		logResponse(resp)
+	}
+
 	if resp.StatusCode == 404 || resp.StatusCode == 400 {
 		bs, _ := ioutil.ReadAll(resp.Body)
 		return fmt.Errorf("%s:Status %v:%s", objectName, resp.StatusCode, string(bs))
@@ -116,6 +131,10 @@ func SearchObject(objectName string, query string, fields []string, limit int) (
 	resp, err := client.Do(r)
 	if err != nil {
 		return nil, err
+	}
+
+	if logging {
+		logResponse(resp)
 	}
 
 	if resp.StatusCode != 200 {
@@ -144,6 +163,10 @@ func Query(query string) ([]interface{}, error) {
 		return nil, err
 	}
 
+	if logging {
+		logResponse(resp)
+	}
+
 	if resp.StatusCode != 200 {
 		bs, _ := ioutil.ReadAll(resp.Body)
 
@@ -168,6 +191,11 @@ func DeleteObject(objectName string, ID string) (map[string]interface{}, error) 
 	if err != nil {
 		return nil, err
 	}
+
+	if logging {
+		logResponse(resp)
+	}
+
 	if resp.StatusCode != 204 {
 		bs, _ := ioutil.ReadAll(resp.Body)
 		return nil, fmt.Errorf("%s:Status %v:%s", objectName, resp.StatusCode, string(bs))
@@ -180,6 +208,18 @@ func DeleteObject(objectName string, ID string) (map[string]interface{}, error) 
 func logRequest(req *http.Request) {
 
 	dump, err := httputil.DumpRequest(req, true)
+
+	if err == nil {
+		log.Println(string(dump))
+	} else {
+		log.Println(err)
+	}
+
+}
+
+func logResponse(res *http.Response) {
+
+	dump, err := httputil.DumpResponse(res, true)
 
 	if err == nil {
 		log.Println(string(dump))
