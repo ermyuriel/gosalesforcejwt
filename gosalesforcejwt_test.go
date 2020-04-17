@@ -7,6 +7,8 @@ import (
 	"os"
 	"testing"
 	"time"
+
+	"github.com/joho/godotenv"
 )
 
 func TestLogIn(t *testing.T) {
@@ -20,6 +22,7 @@ func TestLogIn(t *testing.T) {
 	log.Println(token)
 }
 func TestCreateLead(t *testing.T) {
+	godotenv.Load()
 	Init(true)
 	create, err := PostObject("Lead", struct {
 		LastName string `json:"LastName"`
