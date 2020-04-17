@@ -235,7 +235,7 @@ func logResponse(res *http.Response, url string) ([]byte, string, error) {
 		return nil, "", err
 	}
 
-	if len(bs) >= 0 {
+	if len(bs) > 0 {
 		cp = make([]byte, len(bs))
 		copy(cp, bs)
 
