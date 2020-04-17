@@ -227,15 +227,20 @@ func DeleteObject(objectName string, ID string) (map[string]interface{}, error) 
 }
 
 func logResponse(res *http.Response, url string) ([]byte, string, error) {
-	body := make(map[string]interface{})
+	var body interface{}
 
 	bs, err := ioutil.ReadAll(res.Body)
 	if err != nil {
 		return nil, "", err
 	}
-
 	cp := make([]byte, len(bs))
 	copy(cp, bs)
+
+	err = json.NewDecoder(bytes.NewBuffer(bs)).Decode(&body)
+	if err != nil {
+		log.Println(err)
+		return nil, "", err
+	}
 
 	js, err := json.Marshal(map[string]interface{}{"url": url, "status_code": res.StatusCode, "body": body})
 	if err != nil {

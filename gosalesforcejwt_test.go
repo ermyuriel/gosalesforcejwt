@@ -12,6 +12,7 @@ import (
 )
 
 func TestLogIn(t *testing.T) {
+	godotenv.Load()
 	keyBytes, _ := ioutil.ReadFile(os.Getenv("SALESFORCE_KEY_PATH"))
 	request, _ := BuildRequest(os.Getenv("SALESFORCE_CLIENT_ID"), os.Getenv("SALESFORCE_USER"), os.Getenv("SALESFORCE_AUDIENCE"))
 	signature, _ := SignRequest(keyBytes, request)
@@ -35,7 +36,7 @@ func TestCreateLead(t *testing.T) {
 	log.Println(create.ID)
 }
 func TestCreateContact(t *testing.T) {
-
+	godotenv.Load()
 	Init(true)
 	create, err := PostObject("Contact", struct {
 		LastName string `json:"LastName"`
@@ -64,6 +65,7 @@ func TestGetLead(t *testing.T) {
 	log.Println(lead)
 }
 func TestPatchLead(t *testing.T) {
+	godotenv.Load()
 	Init(true)
 	create, err := PostObject("Lead", struct {
 		LastName string `json:"LastName"`
@@ -94,7 +96,7 @@ func TestPatchLead(t *testing.T) {
 	}
 }
 func TestSearchLead(t *testing.T) {
-
+	godotenv.Load()
 	Init(true)
 	name := fmt.Sprintf("Test:%v", time.Now().Unix())
 	_, err := PostObject("Lead", struct {
@@ -113,7 +115,7 @@ func TestSearchLead(t *testing.T) {
 }
 
 func TestSearchLeadQuery(t *testing.T) {
-
+	godotenv.Load()
 	Init(true)
 	name := fmt.Sprintf("Test:%v", time.Now().Unix())
 	_, err := PostObject("Lead", struct {
@@ -132,6 +134,7 @@ func TestSearchLeadQuery(t *testing.T) {
 }
 
 func TestDeleteLead(t *testing.T) {
+	godotenv.Load()
 	Init(true)
 	create, err := PostObject("Lead", struct {
 		LastName string `json:"LastName"`
