@@ -228,22 +228,21 @@ func DeleteObject(objectName string, ID string) (map[string]interface{}, error) 
 
 func logResponse(res *http.Response, url string) ([]byte, string, error) {
 	var body interface{}
+	var cp []byte
 
 	bs, err := ioutil.ReadAll(res.Body)
 	if err != nil {
 		return nil, "", err
 	}
 
-	if len(bs) == 0 {
-		return nil, "{}", nil
-	}
+	if len(bs) >= 0 {
+		cp = make([]byte, len(bs))
+		copy(cp, bs)
 
-	cp := make([]byte, len(bs))
-	copy(cp, bs)
-
-	err = json.NewDecoder(bytes.NewBuffer(bs)).Decode(&body)
-	if err != nil {
-		return nil, "", err
+		err = json.NewDecoder(bytes.NewBuffer(bs)).Decode(&body)
+		if err != nil {
+			return nil, "", err
+		}
 	}
 
 	js, err := json.Marshal(map[string]interface{}{"url": url, "status_code": res.StatusCode, "body": body})
