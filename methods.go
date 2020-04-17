@@ -233,12 +233,16 @@ func logResponse(res *http.Response, url string) ([]byte, string, error) {
 	if err != nil {
 		return nil, "", err
 	}
+
+	if len(bs) == 0 {
+		return nil, "{}", nil
+	}
+
 	cp := make([]byte, len(bs))
 	copy(cp, bs)
 
 	err = json.NewDecoder(bytes.NewBuffer(bs)).Decode(&body)
 	if err != nil {
-		log.Println(err)
 		return nil, "", err
 	}
 
